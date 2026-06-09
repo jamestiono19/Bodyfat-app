@@ -1,0 +1,42 @@
+artifact_path: file:c:/Users/HP/James T/ML/body-fat-prediction/notebook/mlruns/1/models/m-0d162b0a7b8d4da4b184daaf443b70c0/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.13.0
+model_id: m-0d162b0a7b8d4da4b184daaf443b70c0
+model_size_bytes: 2829
+model_uuid: m-0d162b0a7b8d4da4b184daaf443b70c0
+prompts: null
+run_id: 6bc5327698714d3ead0f1a4df0f6ae5a
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "Age", "required": true}, {"type": "double",
+    "name": "Weight", "required": true}, {"type": "double", "name": "Height", "required":
+    true}, {"type": "double", "name": "Neck", "required": true}, {"type": "double",
+    "name": "Chest", "required": true}, {"type": "double", "name": "Abdomen", "required":
+    true}, {"type": "double", "name": "Hip", "required": true}, {"type": "double",
+    "name": "Thigh", "required": true}, {"type": "double", "name": "Knee", "required":
+    true}, {"type": "double", "name": "Ankle", "required": true}, {"type": "double",
+    "name": "Biceps", "required": true}, {"type": "double", "name": "Forearm", "required":
+    true}, {"type": "double", "name": "Wrist", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-06-09 14:47:06.062511'
