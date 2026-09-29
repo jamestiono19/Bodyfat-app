@@ -1,0 +1,21 @@
+# Streamlit reads this from the directory you launch `streamlit run` in.
+# Run from the repo root: streamlit run body-fat-prediction/streamlit_app.py
+
+[theme]
+base = "dark"
+primaryColor = "#e9b44c"
+backgroundColor = "#0e0f11"
+secondaryBackgroundColor = "#1a1c20"
+textColor = "#ececee"
+borderColor = "#2a2c31"
+showWidgetBorder = true
+baseRadius = "0.5rem"
+font = "Hanken Grotesk:https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
+headingFont = "Hanken Grotesk:https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&display=swap"
+
+[theme.sidebar]
+backgroundColor = "#131518"
+secondaryBackgroundColor = "#1a1c20"
+
+[client]
+toolbarMode = "minimal"
